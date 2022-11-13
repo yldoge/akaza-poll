@@ -1,6 +1,4 @@
-import React from 'react';
-
-function Header() {
+export default function Header() {
   return (
     <>
       <div className="py-8 flex justify-between items-center">
@@ -12,5 +10,3 @@ function Header() {
     </>
   );
 }
-
-export default Header;
